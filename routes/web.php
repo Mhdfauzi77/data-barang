@@ -19,7 +19,7 @@ use App\Http\Controllers\TransaksiController;
 */
 
 Route::get('/', function () {
-    return redirect('home');
+    return redirect('/login');
 });
 
 

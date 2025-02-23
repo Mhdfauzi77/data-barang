@@ -2,6 +2,98 @@
 
 @section('content')
 
+<head>
+    <style>
+        .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-header {
+    background-color:rgb(9, 243, 1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+
+.table thead {
+    background-color:rgb(236, 91, 7);
+    color: white;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-success {
+    background-color:rgb(22, 24, 24);
+    border: none;
+}
+
+.btn-success:hover {
+    background-color:rgb(21, 22, 22);
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+    .table th, .table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
+
+    </style>
+</head>
 <div class="container">
     <div class="card">
         <div class="card-header">
